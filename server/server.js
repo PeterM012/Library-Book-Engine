@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-app.use(routes);
+// app.use(routes);
 
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
